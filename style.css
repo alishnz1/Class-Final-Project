@@ -13,7 +13,12 @@ body {
 
 /* header-hero section all css */
 .header-hero {
-  display: flex;
+    background-color: #fff;
+    background: url(/images/bacground\ hero-header.png);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -25,7 +30,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 25px 150px 25px 15px;
+  padding: 25px 150px 0px 150px;
 }
 .navigation .logo {
   max-width: 9.72222222222%;
@@ -58,6 +63,7 @@ body {
   color: #1583ed;
 }
 .header-button button {
+    cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -65,7 +71,17 @@ body {
   padding: 13px 24px 13px 24px;
   border: none;
   border-radius: 10px;
+  transition: 0.25s ease;
   background: linear-gradient(90deg, #1583ed 0%, #11a4ee 100%);
+}
+.header-button button:hover{
+    background: #fff;
+    transition: 0.25s ease;
+  
+}
+.header-button button:hover h4 {
+    color: #1587ED;
+    transition: 0.25s ease;
 }
 .header-button button h4 {
   color: #fff;
@@ -78,6 +94,7 @@ body {
 }
 /* hero section css */
 .hero-main {
+    width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -85,14 +102,14 @@ body {
   padding: 71px 0px 141.21px 150px;
 }
 .hero-content-main {
-    width: 48%;
+ width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 31px 0px 51.79px 0px;
   gap: 20px;
 }
-.hero-content-main h2 {
+.hero-content-main h3 {
   color: rgba(0, 0, 0, 0.7);
   font-family: "Urbanist", sans-serif;
   font-size: 48px;
@@ -101,7 +118,7 @@ body {
   letter-spacing: 0em;
   text-align: left;
 }
-.hero-content-main h2 > span {
+.hero-content-main h3 > span {
   color: #1587ed;
 }
 .hero-content-main > p {
@@ -122,6 +139,7 @@ body {
 }
 .hero-button-one button {
     display: flex;
+    cursor: pointer;
     align-items: center;
     justify-content: center;
     gap: 6px;
@@ -134,6 +152,7 @@ body {
   }
 .hero-button-two button {
     display: flex;
+    cursor: pointer;
     align-items: center;
     justify-content: center;
     gap: 6px;
@@ -145,11 +164,11 @@ body {
     background: linear-gradient(90deg, #1583ed 0%, #11a4ee 100%);
   }
   .hero-image{
-    width: 52%;
+    width: 50%;
     padding-right: 150px;
     padding-left: 20px;
     background:url(/images/hero/bg.png) ;
-    background-position: center;
+    background-position: 0px 70px;
     background-repeat: no-repeat;
     background-size: contain;
   }
