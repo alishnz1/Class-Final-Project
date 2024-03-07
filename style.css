@@ -10,6 +10,9 @@ body {
   max-width: 1440px;
   margin: 0 auto;
 }
+.header-button img svg path{
+  stroke: red;
+}
 
 /* header-hero section all css */
 .header-hero {
@@ -22,7 +25,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0;
+  padding: 0px 0px;
 }
 /* navigation bar css */
 .navigation {
@@ -30,7 +33,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 25px 150px 0px 150px;
+  padding: 25px 150px 25px 150px;
 }
 .navigation .logo {
   max-width: 9.72222222222%;
@@ -74,11 +77,11 @@ body {
   transition: 0.25s ease;
   background: linear-gradient(90deg, #1583ed 0%, #11a4ee 100%);
 }
-.header-button button:hover{
+/* .header-button button:hover{
     background: #fff;
     transition: 0.25s ease;
   
-}
+} */
 .header-button button:hover h4 {
     color: #1587ED;
     transition: 0.25s ease;
@@ -106,16 +109,16 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 31px 0px 51.79px 0px;
+  padding: 31px 0px 0px 0px;
   gap: 20px;
 }
 .hero-content-main h3 {
   color: rgba(0, 0, 0, 0.7);
   font-family: "Urbanist", sans-serif;
-  font-size: 48px;
+  font-size: 46px;
   font-weight: 700;
   line-height: 64px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
 }
 .hero-content-main h3 > span {
@@ -163,13 +166,32 @@ body {
     /* background-color: #fff; */
     background: linear-gradient(90deg, #1583ed 0%, #11a4ee 100%);
   }
+  .hero-button-one button>h4{
+    color: #1583ed;
+  }
+  .hero-button-two button>h4{
+    color: #fff;
+  }
   .hero-image{
     width: 50%;
     padding-right: 150px;
     padding-left: 20px;
     background:url(/images/hero/bg.png) ;
-    background-position: 0px 70px;
+    background-position: 0px 90px;
     background-repeat: no-repeat;
     background-size: contain;
+  }
+  .hero-image>img{
+    max-width: 517px;
+    padding-right: 48px;
+  }
+
+  .How-it-works{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 71px 0px 141.21px 150px;
+    background-color: rgba(21, 135, 237, 0.03);
   }
 
