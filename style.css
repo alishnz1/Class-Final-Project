@@ -53,10 +53,35 @@
 }
 
 /* hero section css */
-
+.primary-color{
+  color: #1583ed;
+}
+.hero-btn{
+  display: flex;
+  gap: 20px;
+}
+#btn-hero{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+  padding: 15px 24px;
+  border-radius: 10px;
+  border: none;
+background-color: #fff;
+  color: #1583ed;
+  cursor: pointer;
+  font-family: "Urbanist" , sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.15);
+}
 
 /* btn all css */
-.header-button > #btn-header {
+ #btn-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -74,6 +99,6 @@
   letter-spacing: 0em;
   text-align: left;
 }
-.header-button > #btn-header > img {
+#btn-header > img {
   padding: 2px 0px;
 }
